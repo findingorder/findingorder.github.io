@@ -361,6 +361,9 @@ body {
   border: #4e95f4 1px solid;
   background: #dae5f4;
 }
+.footer {
+  font-size: 12px !important;
+}
 .skillsTable {
   width: 100%;
   border-collapse: collapse;
@@ -380,14 +383,4 @@ body {
 /*  Define the background color for all the EVEN background rows  */
 .skillsTable tr:nth-child(even) {
   background: #dae5f4;
-}
-/* wkhtmltopdf page break classes */
-.keep-together {
-  page-break-inside: avoid;
-}
-.break-before {
-  page-break-before: always;
-}
-.break-after {
-  page-break-after: always;
 }
