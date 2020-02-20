@@ -381,3 +381,13 @@ body {
 .skillsTable tr:nth-child(even) {
   background: #dae5f4;
 }
+/* wkhtmltopdf page break classes */
+.keep-together {
+  page-break-inside: avoid;
+}
+.break-before {
+  page-break-before: always;
+}
+.break-after {
+  page-break-after: always;
+}
