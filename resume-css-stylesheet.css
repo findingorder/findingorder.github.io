@@ -348,7 +348,7 @@
     display: none;
   }
 body {
-  font-family: consolas;
+  font-family: consolas, menlo;
   margin-left: 20px;
   margin-right: 20px;
 }
